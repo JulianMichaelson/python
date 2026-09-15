@@ -12,6 +12,7 @@ ASSIGNMENT REQUIREMENTS
 [ ] 4. Upload to GitHub and paste the link below.
 -----------------------------------------------------------------------
 """
+# The Nagging Kid Assignment Portion 1
 there = True
 
 answer = input("Are we there yet? (yes or no): ")
@@ -26,8 +27,9 @@ if answer == "yes":
     there= True
 
 print("Yes! We're here! Now stop nagging me kid!!")
-
-# 99 Bottles of Beer Assignment Portion
+# 99 Bottles of Beer Assignment Portion 2
+for bottles in range(99, 0, -1):
+     print(f"{bottles} bottles of beer on the wall")
 
 
 
