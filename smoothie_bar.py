@@ -19,11 +19,11 @@ SIZES  = ("Small", "Medium", "Large")
 # TODO: Define get_price(size)
 def get_price(size):
     if size == "Small":
-        return 4.00
+        return 5.00
     elif size == "Medium":
-        return 5.50
+        return 7.50
     else:
-        return 7.00
+        return 10.00
 
 # TODO: Define blend(size, base, fruit, scoops)
 
